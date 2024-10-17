@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #FDECB8;
+    }
+    #root {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+    }
+    .form-container {
+      background-color: #D8D4CB;
+      border-radius: 15px;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+    }
+    .form-container h2 {
+      margin-bottom: 20px;
+    }
+    .form-container input {
+      width: calc(100% - 22px); /* Adjust to fit inside container */
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .form-container button {
+      width: 100%;
+      padding: 10px;
+      background-color: #E5B487;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .form-container button:hover {
+      background-color: darkred;
+    }
+    footer {
+      margin-top: auto;
+      padding: 10px;
+      background-color: #F3E3B6;
+      color: #726E60;
+      text-align: center;
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <footer>
+    Universidad Autónoma de Chiapas
+  </footer>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
